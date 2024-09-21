@@ -1,0 +1,29 @@
+{
+    "family": "dtbyg:blue_enchanted",
+    "tapering": 0.5,
+    "signal_energy": 20.0,
+    "growth_rate": 0.8,
+    "up_probability": 3,
+    "lowest_branch_height": 4,
+    "soil_longevity": 4,
+    "max_branch_radius": 24,
+    "leaves_properties": "dtbyg:blue_enchanted",
+    "growth_logic_kit": {
+        "name": "dtbyg:enchanted",
+        "properties": {
+            "chance_to_split": 0,
+            "force_branching_at_step": 10,
+            "height_variation": 5
+        }
+    },
+    "perfect_biomes": { "types": [ "forest", "overworld" ] },
+    "primitive_sapling": "byg:blue_enchanted_sapling",
+    "features": [
+        {
+            "name": "dtbyg:alt_branch",
+            "properties": {
+                "alternative_branch_block": "dtbyg:imbued_blue_enchanted_branch"
+            }
+        }
+    ]
+}

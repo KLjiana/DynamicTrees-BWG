@@ -1,0 +1,7 @@
+{
+  "parent": "dtbyg:block/fruit/generic/flower_age0",
+  "textures": {
+    "particle": "dtbyg:block/ether_bulbs",
+    "apple": "dtbyg:block/ether_bulbs"
+  }
+}

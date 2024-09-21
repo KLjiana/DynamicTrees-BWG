@@ -1,0 +1,12 @@
+{
+  "primitive_leaves": "byg:redwood_leaves",
+  "cell_kit": "dynamictrees:conifer",
+  "smother": 32,
+  "light_requirement": 6,
+  "model_overrides": {
+    "leaves": "byg:block/redwood/leaves"
+  },
+  "texture_overrides": {
+    "leaves": "byg:block/redwood/leaves"
+  }
+}

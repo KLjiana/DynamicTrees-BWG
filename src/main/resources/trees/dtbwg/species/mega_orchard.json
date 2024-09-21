@@ -1,0 +1,51 @@
+{
+  "family": "oak",
+  "tapering": 0.33,
+  "signal_energy": 32.0,
+  "up_probability": 8,
+  "lowest_branch_height": 9,
+  "growth_rate": 1.2,
+  "soil_longevity": 16,
+  "max_branch_radius": 24,
+  "leaves_properties": "dtbyg:orchard",
+  "use_seed_of_other_species": "dtbyg:orchard",
+  "environment_factors" : {
+    "cold": 0.75,
+    "hot": 0.5,
+    "dry": 0.5
+  },
+  "world_gen_leaf_map_height": 60,
+  "perfect_biomes": {
+    "name": "byg:.*orchard.*"
+  },
+  "fruits": [
+    "apple"
+  ],
+  "features" : [
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotted_soil": "podzol"
+      }
+    },
+    "bottom_flare",
+    "roots",
+    "mound",
+    "mushroom_rot",
+    "bee_nest",
+    "podzol",
+    {
+      "name": "alt_leaves",
+      "properties": {
+        "alternative_leaves": "dtbyg:flowering_orchard",
+        "place_chance": 0.33
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "apple"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "primitive_leaves": "byg:blue_enchanted_leaves",
+  "cell_kit": "acacia",
+  "model_overrides": {
+    "leaves": "byg:block/blue_enchanted/leaves"
+  },
+  "texture_overrides": {
+    "leaves": "byg:block/blue_enchanted/leaves"
+  }
+}

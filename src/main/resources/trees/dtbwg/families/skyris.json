@@ -1,0 +1,13 @@
+{
+  "common_leaves": "dtbyg:skyris",
+  "common_species": "dtbyg:skyris",
+  "primitive_log": "byg:skyris_log",
+  "primitive_stripped_log": "byg:stripped_skyris_log",
+  "max_branch_radius": 24,
+  "texture_overrides": {
+    "branch": "byg:block/skyris/log",
+    "branch_top": "byg:block/skyris/log_top",
+    "stripped_branch": "byg:block/skyris/stripped_log",
+    "stripped_branch_top": "byg:block/skyris/stripped_log_top"
+  }
+}

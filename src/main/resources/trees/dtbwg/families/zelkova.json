@@ -1,0 +1,14 @@
+{
+  "common_leaves": "dtbyg:zelkova",
+  "common_species": "dtbyg:zelkova",
+  "primitive_log": "byg:zelkova_log",
+  "primitive_stripped_log": "byg:stripped_zelkova_log",
+  "max_branch_radius": 8,
+  "conifer_variants": true,
+  "texture_overrides": {
+    "branch": "byg:block/zelkova/log",
+    "branch_top": "byg:block/zelkova/log_top",
+    "stripped_branch": "byg:block/zelkova/stripped_log",
+    "stripped_branch_top": "byg:block/zelkova/stripped_log_top"
+  }
+}

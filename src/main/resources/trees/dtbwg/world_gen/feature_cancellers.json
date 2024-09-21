@@ -1,0 +1,45 @@
+[
+  {
+    "__comment": "Cancel standard tree features from byg biomes.",
+    "select": { "name": "byg.*", "names": ["!byg:bulbis_gardens","!byg:ivis_fields"] },
+    "cancellers": {
+      "types": [ "dtbyg:tree", "tree", "dtbyg:fungus" ],
+      "namespaces": ["byg", "corgilib", "minecraft"]
+    }
+  },
+  {
+    "only_if_loaded": "dynamictreesplus",
+    "__comment": "Cancel standard mushroom features from byg biomes.",
+    "select": { "name": "byg.*", "names": ["!byg:bulbis_gardens","!byg:ivis_fields"] },
+    "cancellers": {
+      "types": [ "dtbyg:tree", "tree", "dtbyg:fungus", "mushroom" ],
+      "namespaces": ["byg", "corgilib", "minecraft"],
+      "stages": ["UNDERGROUND_DECORATION", "VEGETAL_DECORATION"]
+    }
+  },
+  {
+    "select": {
+      "name": "byg:.*ancient_forest"
+    },
+    "cancellers": {
+      "types": [
+        "tree",
+        "dtbyg:tree",
+        "dtbyg:fungus",
+        "dtbyg:giant_flower"
+      ],
+      "namespaces": ["byg", "minecraft"]
+    }
+  },
+
+  {
+    "only_if_loaded": "dynamictreesplus",
+    "select": {
+      "names_or": ["byg:warped_desert","byg:mojave_desert","byg:windswept_desert"]
+    },
+    "cancellers": {
+      "type": "dynamictreesplus:cactus",
+      "namespace": "minecraft"
+    }
+  }
+]
